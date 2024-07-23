@@ -1,0 +1,88 @@
+.card-MainConten {
+    --colorbdg: #f5d5d5;
+    --colorText: #000000;
+    --colorEnfasis: #f5d5d5;
+    --colorEnfasis2: #f5d5d5;
+}
+
+.card-MainConten  {
+    background-color: var(--colorbdg);
+    border: 1px solid var(--colorbdg);
+    border-radius: 8px;
+    box-shadow: #4b3c3c 3px 2px 8px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 450px;
+}
+
+.card-ImgConten {
+    width: 90%;
+}
+
+.Img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+
+.card-SecudConten {
+    /* background: red; */
+    width: 90%;
+    margin: 15px 0;   
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.card-UserConten {
+    /* background-color: aqua; */
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    padding: 8px 0;
+    display: flex;
+    gap: 5px;
+    /* justify-content: ; */
+}
+
+
+.UserAvatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.UserConten {
+    display: flex;
+    flex-direction: column;
+}
+
+.UserName {
+    color: var(--colorText);
+    
+}
+
+.UserSeccion {
+    opacity: .86;
+}
+
+.card-InfoConten {
+    /* background-color: aqua; */
+    padding: 5px;
+    font-size: 0.95em;
+    text-align: justify;
+    color: var(--colorText);
+
+}
+
+.card-TituloConten {
+    font-size: 1.2em;
+}
+
+.InfoCard {
+
+}

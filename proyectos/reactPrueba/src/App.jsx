@@ -1,11 +1,18 @@
-// import { TwitterCard } from "./TwitterCard/TwitterCard";
+import { TwitterCard } from "./TwitterCard/TwitterCard";
 import { TresEnRaya } from "./TresEnRayas/TresEnRaya";
 import "./App.css"
 
 function App () {
     return (
         <section className="App">
-            <TresEnRaya/>
+            <TwitterCard nombreUsuario={'Elon Musk'} usuario={'ElonMusk'} />
+            <TwitterCard nombreUsuario={'Gacha Memes'} usuario={'GenshinImpactOC'} />
+            <TwitterCard nombreUsuario={'Keitaro'} usuario={'DqKeita'} />
+            <TwitterCard nombreUsuario={'Miguel Ángel Durán'} usuario={'midudev'} />
+            <TwitterCard nombreUsuario={'Cosmic Red (dark mode)'} usuario={'carmenansio'} />
+            <TwitterCard nombreUsuario={'Putupau'} usuario={'PutuPauu'} />
+            <TwitterCard nombreUsuario={'⚡SkyZero⚡'} usuario={'XSkyZeroX'} />
+
         </section>
     )
 }
