@@ -1,7 +1,7 @@
 import './TwitterCard.css';
 import { useState } from 'react';
 
-const TwitterCard = ({nombreUsuario, usuario}) => {
+const TwitterCard = ({nombreUsuario='Anonimo', usuario='Desconocido'}) => {
 
     const [esSeguidor, setEsSeguidor] = useState(false);
 
