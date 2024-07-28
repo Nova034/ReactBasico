@@ -1,7 +1,6 @@
 import './TwitterCard.css';
 import { useState } from 'react';
 
- 
 const TwitterCard = ({nombreUsuario, usuario}) => {
 
     const [esSeguidor, setEsSeguidor] = useState(false);
@@ -35,6 +34,5 @@ const TwitterCard = ({nombreUsuario, usuario}) => {
         
     )
 }
-
 
 export {TwitterCard};
